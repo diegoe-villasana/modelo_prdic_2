@@ -1,0 +1,139 @@
+Tag,Direction,PLCType,Units,Range,Description
+CFD_Time_s,EMULATE_TO_PLC,REAL,s,See handoff,Native Olympus_Controller property
+CPU1_Heatsink_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+CPU1_Temp_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+CPU2_Heatsink_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+CPU2_Temp_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+CRAC_Capacity,PLC_TO_EMULATE,REAL,1,0..1,Native Olympus_Controller property
+CRAC_Fan_PWM,PLC_TO_EMULATE,REAL,percent,0..100,Native Olympus_Controller property
+CRAC_Flow_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+CRAC_SupplyTemp_C,PLC_TO_EMULATE,REAL,degC,0..50,Native Olympus_Controller property
+Floor_01_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_01_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_01_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_01_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_01_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_02_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_02_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_02_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_02_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_02_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_03_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_03_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_03_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_03_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_03_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_04_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_04_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_04_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_04_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_04_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_05_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_05_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_05_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_05_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_05_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_06_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_06_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_06_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_06_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_06_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_07_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_07_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_07_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_07_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_07_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_08_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_08_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_08_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_08_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_08_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_09_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_09_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_09_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_09_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_09_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_10_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_10_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_10_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_10_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_10_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_11_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_11_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_11_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_11_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_11_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_12_Speed_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_12_Temperature_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Floor_12_Ux_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_12_Uy_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+Floor_12_Uz_m_s,EMULATE_TO_PLC,REAL,m/s,See handoff,Native Olympus_Controller property
+MATLAB_Time_s,EMULATE_TO_PLC,REAL,s,See handoff,Native Olympus_Controller property
+PLC_AckSeq,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+PLC_Busy,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+PLC_DataAge_s,EMULATE_TO_PLC,REAL,s,See handoff,Native Olympus_Controller property
+PLC_DataValid,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+PLC_DoneSeq,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+PLC_FaultCode,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+PLC_Heartbeat,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+PLC_Mode,PLC_TO_EMULATE,BOOL,1,See handoff,Native Olympus_Controller property
+PLC_Ready,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+PLC_RequestSeq,PLC_TO_EMULATE,DINT,1,See handoff,Native Olympus_Controller property
+PLC_SchemaVersion,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+PLC_Stale,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+R1_CPU1_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R1_CPU1_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R1_CPU2_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R1_CPU2_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R1_Demand_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R1_Inlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R1_Outlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R1_Power_W,EMULATE_TO_PLC,REAL,W,See handoff,Native Olympus_Controller property
+R1_Recirculation,EMULATE_TO_PLC,REAL,1,See handoff,Native Olympus_Controller property
+R1_ServerFan_PWM,PLC_TO_EMULATE,REAL,percent,0..100,Native Olympus_Controller property
+R1_Supply_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R2_CPU1_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R2_CPU1_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R2_CPU2_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R2_CPU2_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R2_Demand_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R2_Inlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R2_Outlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R2_Power_W,EMULATE_TO_PLC,REAL,W,See handoff,Native Olympus_Controller property
+R2_Recirculation,EMULATE_TO_PLC,REAL,1,See handoff,Native Olympus_Controller property
+R2_ServerFan_PWM,PLC_TO_EMULATE,REAL,percent,0..100,Native Olympus_Controller property
+R2_Supply_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R3_CPU1_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R3_CPU1_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R3_CPU2_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R3_CPU2_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R3_Demand_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R3_Inlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R3_Outlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R3_Power_W,EMULATE_TO_PLC,REAL,W,See handoff,Native Olympus_Controller property
+R3_Recirculation,EMULATE_TO_PLC,REAL,1,See handoff,Native Olympus_Controller property
+R3_ServerFan_PWM,PLC_TO_EMULATE,REAL,percent,0..100,Native Olympus_Controller property
+R3_Supply_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R4_CPU1_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R4_CPU1_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R4_CPU2_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R4_CPU2_Load_W,PLC_TO_EMULATE,REAL,W,0..205,Native Olympus_Controller property
+R4_Demand_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+R4_Inlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R4_Outlet_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+R4_Power_W,EMULATE_TO_PLC,REAL,W,See handoff,Native Olympus_Controller property
+R4_Recirculation,EMULATE_TO_PLC,REAL,1,See handoff,Native Olympus_Controller property
+R4_ServerFan_PWM,PLC_TO_EMULATE,REAL,percent,0..100,Native Olympus_Controller property
+R4_Supply_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+Rack_DemandFlow_m3s,EMULATE_TO_PLC,REAL,m3/s,See handoff,Native Olympus_Controller property
+Rack_InletTemp_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Rack_OutletTemp_C,EMULATE_TO_PLC,REAL,degC,See handoff,Native Olympus_Controller property
+Recirculation_Fraction,EMULATE_TO_PLC,REAL,1,See handoff,Native Olympus_Controller property
+Sim_Busy,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+Sim_DataValid,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property
+Sim_Heartbeat,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+Sim_InputSeq,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+Sim_OutputSeq,EMULATE_TO_PLC,DINT,1,See handoff,Native Olympus_Controller property
+Sim_ResetCmd,PLC_TO_EMULATE,BOOL,1,See handoff,Native Olympus_Controller property
+Sim_RunCmd,PLC_TO_EMULATE,BOOL,1,See handoff,Native Olympus_Controller property
+Sim_ThermalAlarm,EMULATE_TO_PLC,BOOL,1,See handoff,Native Olympus_Controller property

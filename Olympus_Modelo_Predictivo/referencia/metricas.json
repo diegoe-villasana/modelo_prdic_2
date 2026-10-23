@@ -1,0 +1,17 @@
+{
+  "scope": "Simulacion sintetica; no validacion de campo",
+  "duration_s": 86400,
+  "step_s": 1,
+  "policies": {
+    "feedback": {
+      "peak_C": 29.053815681573788,
+      "seconds_above_27C": 164,
+      "degree_seconds_above_27C": 231.35092320253767
+    },
+    "anticipatorio": {
+      "peak_C": 26.883062223637065,
+      "seconds_above_27C": 0,
+      "degree_seconds_above_27C": 0.0
+    }
+  }
+}

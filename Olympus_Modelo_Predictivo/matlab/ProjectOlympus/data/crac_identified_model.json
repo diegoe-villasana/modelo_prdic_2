@@ -1,0 +1,58 @@
+{
+  "status": "QA_PASS",
+  "geometry": {
+    "plenum_m": [
+      6.0,
+      1.8,
+      0.6
+    ],
+    "plenum_volume_m3": 6.48,
+    "supply_grille_m": [
+      0.6,
+      1.8
+    ],
+    "supply_grille_area_m2": 1.08
+  },
+  "input_step": {
+    "time_s": 1.0,
+    "CRAC_flow_m3_s": 1.02487356,
+    "CRAC_flow_CFM": 2171.584091887421,
+    "nominal_PWM_percent": 100
+  },
+  "flow_response": {
+    "final_grille_flow_m3_s": 1.0248735400000004,
+    "final_grille_flow_CFM": 2171.584049509822,
+    "gain_m3_s_per_percent_PWM": 0.010248735400000004,
+    "mass_mismatch_percent": 1.9514602412709345e-06,
+    "t10_s": 1.002380986455742,
+    "t50_s": 1.0119049322787128,
+    "t90_s": 1.0214288781016834,
+    "t95_s": 1.0226193713295546
+  },
+  "air_transport": {
+    "final_tracer_fraction": 0.9973930992,
+    "residence_volume_over_flow_s": 6.322731290340463,
+    "t01_s": 5.981372423158808,
+    "t05_s": 6.2553467594796786,
+    "t10_s": 6.405341126761076,
+    "t50_s": 6.974744914754562,
+    "t63_s": 7.142611357110835,
+    "t90_s": 7.729230581516142,
+    "t95_s": 8.150282673922975,
+    "t99_s": 10.406919612504224
+  },
+  "FOPDT_tracer_model": {
+    "equation": "C_out(s)/C_in(s) = K*exp(-L*s)/(tau*s+1)",
+    "K": 0.9954768143905418,
+    "dead_time_L_s": 5.45,
+    "time_constant_tau_s": 0.65,
+    "estimated_95pct_settling_s_after_step": 7.4,
+    "fit_RMSE": 0.014021586087251492
+  },
+  "checks": {
+    "mesh_OK": true,
+    "final_mass_mismatch_below_0p01pct": true,
+    "tracer_reaches_0p99": true,
+    "complete_25s": true
+  }
+}

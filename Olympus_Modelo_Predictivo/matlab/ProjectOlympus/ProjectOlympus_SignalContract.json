@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "samplePeriodSeconds": 1,
+  "inputs": {
+    "CPU1_W_per_server": {"unit": "W", "min": 0, "max": 205},
+    "CPU2_W_per_server": {"unit": "W", "min": 0, "max": 205},
+    "ServerFanPWM_cmd_pct": {"unit": "%", "min": 0, "max": 100},
+    "CRAC_PWM_cmd_pct": {"unit": "%", "min": 0, "max": 100},
+    "CRAC_capacity_fraction": {"unit": "1", "min": 0, "max": 1},
+    "CRAC_supply_temp_C": {"unit": "degC", "min": 18, "max": 27},
+    "InputSequence": {"type": "DINT"}
+  },
+  "outputs": {
+    "CRAC_flow_m3_s": {"unit": "m3/s"},
+    "Rack_demand_flow_m3_s": {"unit": "m3/s"},
+    "Rack_inlet_C": {"unit": "degC"},
+    "Rack_outlet_C": {"unit": "degC"},
+    "CPU1_die_est_C": {"unit": "degC", "validation": "provisional"},
+    "CPU2_die_est_C": {"unit": "degC", "validation": "provisional"},
+    "CPU1_heatsink_C": {"unit": "degC"},
+    "CPU2_heatsink_C": {"unit": "degC"},
+    "Recirculation_fraction": {"unit": "1"},
+    "ThermalAlarm": {"type": "BOOL"},
+    "DataValid": {"type": "BOOL"},
+    "OutputSequence": {"type": "DINT"},
+    "Heartbeat": {"type": "DINT"}
+  }
+}
